@@ -1,0 +1,6 @@
+br\insper\aposta\aposta\ApostaService.class
+br\insper\aposta\ApostaApplication.class
+br\insper\aposta\aposta\Aposta.class
+br\insper\aposta\aposta\RetornarPartidaDTO.class
+br\insper\aposta\aposta\ApostaRepository.class
+br\insper\aposta\aposta\ApostaController.class
