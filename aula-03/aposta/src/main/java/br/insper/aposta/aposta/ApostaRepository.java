@@ -8,5 +8,5 @@ import java.util.List;
 @Repository
 public interface ApostaRepository extends MongoRepository<Aposta, String> {
 
-    List<Aposta> findByResultado(String resultado);
+    public List<Aposta> findByStatus(String status);
 }

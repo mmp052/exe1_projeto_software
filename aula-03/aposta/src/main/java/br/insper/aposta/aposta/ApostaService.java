@@ -28,7 +28,8 @@ public class ApostaService {
 
     }
 
-    public List<Aposta> listar() {
+    public List<Aposta> listar(String status) {
+        if(status != null) return apostaRepository.findByStatus(status);
         return apostaRepository.findAll();
     }
 

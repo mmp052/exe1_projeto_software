@@ -13,8 +13,8 @@ public class ApostaController {
     private ApostaService apostaService;
 
     @GetMapping
-    public List<Aposta> listar() {
-        return apostaService.listar();
+    public List<Aposta> listar(@RequestParam(required = false) String status) {
+        return apostaService.listar(status);
     }
 
     @GetMapping("/{id}")
